@@ -1,0 +1,93 @@
+.promociones {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* background-image: url(../img/promociones.png);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    height: 22rem;
+    background: url(../img/promociones.png) no-repeat center center;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.promociones__titulo {
+    margin: 0;
+    font-size: 3.25rem;
+    padding-left: 7rem;
+    font-weight: bold;
+}
+
+.promociones__descripcion {
+    font-size: 1.375rem;
+    padding-left: 7rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.promociones__link {
+    margin-left: 7rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    width: 8.0625rem;
+    height: 1rem;
+    padding: 1rem 0;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.2s all ease-out;
+}
+
+.promociones__link:hover {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+/* Responsive tablet */
+
+@media(max-width: 768px) {
+
+    .promociones {
+        background: url(../img/promociones-tablet.png) no-repeat center center;
+        background-size: cover;
+    }
+
+    .promociones__titulo {
+        padding-left: 2rem;
+    }
+
+    .promociones__descripcion {
+        padding-left: 2rem;
+    }
+
+    .promociones__link {
+        margin-left: 2rem;
+    }
+}
+
+/* Responsive Mobile */
+
+@media(max-width: 430px) {
+
+    .promociones {
+        background: url(../img/promociones-tablet.png) no-repeat center center;
+        background-size: cover;
+    }
+
+    .promociones__titulo {
+        padding-left: 1rem;
+        font-size: 2.375rem;
+    }
+
+    .promociones__descripcion {
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+    
+    .promociones__link {
+        margin-left: 1rem;
+    }
+    
+}
