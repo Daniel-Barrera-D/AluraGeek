@@ -95,6 +95,14 @@
     border-radius: 5px;
 }
 
+.formulario__input::placeholder {
+    color: #A2A2A2;
+}
+
+.formulario__textarea::placeholder {
+    color: #A2A2A2;
+}
+
 /* Responsive tablet */
 
 @media(max-width: 768px) {
