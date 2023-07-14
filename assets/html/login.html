@@ -22,10 +22,12 @@
     </header>
 
     <section class="login__formulario">
-        <h3 class="login__titulo">Iniciar Sesión</h3>
-        <input class="login__input" type="text" placeholder="Escriba su correo electrónico" required>
-        <input class="login__input" type="password" placeholder="Escriba su contraseña" required>
-        <button onclick="location.href='menu-administrador.html'" class="login__boton">Entrar</button>
+        <form action="" class="formulario">
+            <h3 class="login__titulo">Iniciar Sesión</h3>
+            <input class="login__input" type="text" placeholder="Escriba su correo electrónico" required>
+            <input class="login__input" type="password" placeholder="Escriba su contraseña" required>
+            <button class="login__boton" type="submit" onclick="location.href='menu-administrador.html'">Entrar</button>
+        </form>
     </section>
 
     <section class="informacion">
@@ -44,8 +46,8 @@
         </div>
         <form action="" class="informacion__formulario">
             <h2 class="formulario__titulo">Hable con nosotros</h2>
-            <input class="formulario__input" type="text" placeholder="Nombre">
-            <textarea class="formulario__textarea" name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+            <input class="formulario__input" type="text" placeholder="Nombre" required>
+            <textarea class="formulario__textarea" name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" required></textarea>
             <button class="formulario__boton" type="submit">Enviar mensaje</button>
         </form>
     </section>

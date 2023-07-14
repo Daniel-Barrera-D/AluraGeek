@@ -1,3 +1,8 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
 .login__formulario {
     display: flex;
     flex-direction: column;
