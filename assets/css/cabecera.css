@@ -106,3 +106,14 @@ body {
         right: 70px;
     }
 }
+
+@media(max-width: 400px) {
+    
+    .cabecera__lupa {
+        right: -210px;
+    }
+
+    .cabecera__login {
+        right: 40px;
+    }
+}

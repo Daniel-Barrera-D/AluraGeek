@@ -81,3 +81,19 @@
     }
     
 }
+
+@media(max-width: 400px) {
+    
+    .producto {
+        width: 140px;
+        margin-right: 0.5rem;
+    }
+
+    .producto>img {
+        width: 155px;
+    }
+
+    .producto__titulo {
+        font-size: 1rem;
+    }
+}
