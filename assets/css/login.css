@@ -1,6 +1,7 @@
 .formulario {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .login__formulario {
@@ -18,6 +19,7 @@
 }
 
 .login__input {
+    font-family: 'Raleway', sans-serif;
     width: 26.4375rem;
     height: 3.5rem;
     border: none;
