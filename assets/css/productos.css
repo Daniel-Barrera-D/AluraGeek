@@ -82,6 +82,14 @@
     
 }
 
+@media(max-width: 414px) {
+
+    .producto {
+        width: 180px;
+        padding-right: 0.5rem;
+    }
+}
+
 @media(max-width: 400px) {
     
     .producto {
