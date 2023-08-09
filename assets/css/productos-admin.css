@@ -64,7 +64,7 @@
 }
 
 .accion__img {
-    
+    cursor: pointer;
     transition: transform .2s;
 }
 

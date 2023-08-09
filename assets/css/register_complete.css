@@ -1,0 +1,45 @@
+.register-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3.75rem 0 3.75rem 0;
+}
+
+.register-card__icon-complete {
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-bottom: 1rem;
+  background-image: url(../img/checkmark.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.register-card__title {
+  max-width: 20rem;
+}
+
+.button {
+  display: block;
+  background-color: #2A7AE4;
+  border-radius: 7px;
+  width: 100%;
+  margin-top: 1rem;
+  max-width: 20rem;
+  padding: 1.125rem;
+  box-sizing: border-box;
+  border: 1px solid #2A7AE4;
+  color: #FFFFFF;
+  align-self: center;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s all ease-out
+}
+
+.button:hover {
+  background-color: #FFFFFF;
+  color: #2A7AE4;
+  cursor: pointer;
+}

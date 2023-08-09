@@ -1,0 +1,148 @@
+{
+  "producto": [
+    {
+      "imagenUrl": "https://i.ibb.co/MkWtssh/taza.png",
+      "categoria": "Star Wars",
+      "nombre": "Taza",
+      "precio": "45,00",
+      "descripcion": "Taza de star wars",
+      "id": "6f24cdea"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/vX9vxXR/figura-peque-a.png",
+      "categoria": "Star Wars",
+      "nombre": "Figura pequeña",
+      "precio": "40,00",
+      "descripcion": "Figura pequeña star wars",
+      "id": "59f8d2bf"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/qRVVc0r/yoda.png",
+      "categoria": "Star Wars",
+      "nombre": "Figura Yoda",
+      "precio": "60,00",
+      "descripcion": "Figura de yoda",
+      "id": "b45aaac4"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/cby5pb4/baby-yoda.png",
+      "categoria": "Star Wars",
+      "nombre": "Baby Yoda",
+      "precio": "95,00",
+      "descripcion": "Figura de baby Yoda",
+      "id": "b36c6f58"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/sFjf9rr/darth-vader.png",
+      "categoria": "Star Wars",
+      "nombre": "Darth Vader",
+      "precio": "100,00",
+      "descripcion": "Figura de Darth Vader",
+      "id": "e3069acf"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/hD2bkXq/control-xbox.png",
+      "categoria": "Consolas",
+      "nombre": "Control Xbox",
+      "precio": "49,99",
+      "descripcion": "Control blanco Xbox",
+      "id": "b0ae61bc"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/pwPsYYT/ps5.png",
+      "categoria": "Consolas",
+      "nombre": "PS 5",
+      "precio": "499,99",
+      "descripcion": "Consola Play 5",
+      "id": "da7529aa"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/ZX6BRQM/nintendo.png",
+      "categoria": "Consolas",
+      "nombre": "Nintendo",
+      "precio": "34,99",
+      "descripcion": "Consola Nintendo",
+      "id": "c60e4d38"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/SwgJr7d/joy-con.png",
+      "categoria": "Consolas",
+      "nombre": "Joy-Con",
+      "precio": "69,99",
+      "descripcion": "Control Nintendo Switch",
+      "id": "791b2e1c"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/Hn5kSQ5/xbox-x.png",
+      "categoria": "Consolas",
+      "nombre": "Xbox Series X",
+      "precio": "499,99",
+      "descripcion": "Consola Xbox Series X",
+      "id": "b7de8503"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/87YQZ5T/gameboy.png",
+      "categoria": "Consolas",
+      "nombre": "Game Boy",
+      "precio": "59,99",
+      "descripcion": "Consola Game Boy",
+      "id": "074109c0"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/hsmtVXH/camisa-atari.png",
+      "categoria": "Diversos",
+      "nombre": "Camisa Atari",
+      "precio": "9,99",
+      "descripcion": "Camisera Atari",
+      "id": "d2cd2852"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/QNQwHBg/camisa-snes.png",
+      "categoria": "Diversos",
+      "nombre": "Camisa SNES",
+      "precio": "9,99",
+      "descripcion": "Camiseta SNES",
+      "id": "376f9d14"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/X3XQFVB/figura-sonic.png",
+      "categoria": "Diversos",
+      "nombre": "Figura Sonic",
+      "precio": "19,99",
+      "descripcion": "Figura de Sonic",
+      "id": "d20f082e"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/K0VzRYC/reloj.png",
+      "categoria": "Diversos",
+      "nombre": "Reloj",
+      "precio": "12,99",
+      "descripcion": "Reloj",
+      "id": "aad76f0d"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/brStH0f/gafas-vr.png",
+      "categoria": "Diversos",
+      "nombre": "Gafas VR",
+      "precio": "120,99",
+      "descripcion": "Gafas de realidad virtual",
+      "id": "679d57e8"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/BgmSL22/peluche-pikachu.png",
+      "categoria": "Diversos",
+      "nombre": "Peluche Pikachu",
+      "precio": "19,99",
+      "descripcion": "Peluche de pikachu",
+      "id": "234b18e5"
+    },
+    {
+      "imagenUrl": "https://i.ibb.co/rpM0qMs/stormtrooper.png",
+      "categoria": "Star Wars",
+      "nombre": "Stormtrooper",
+      "precio": "45,00",
+      "descripcion": "Figura de Stormtrooper",
+      "id": "2554af77"
+    }
+  ]
+}

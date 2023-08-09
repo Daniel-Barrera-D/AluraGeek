@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraGeek - Login</title>
+    <title>Actualizar Producto</title>
     <link rel="icon" href="../img/icono.ico">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/cabecera.css">
     <link rel="stylesheet" href="../css/informacion.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/agregar-producto.css">
 </head>
 <body>
     <header class="cabecera">
@@ -20,15 +20,18 @@
                 <img class="lupa" src="../img/lupa.png" alt="lupa">
             </span>
         </div>
+        <a class="cabecera__menu" href="menu-administrador.html">Menú Administrador</a>
     </header>
 
-    <section class="login__formulario">
-        <form action="" class="formulario" data-form>
-            <h3 class="login__titulo">Iniciar Sesión</h3>
-            <input class="login__input" type="text" placeholder="Escriba su correo electrónico" required data-email>
-            <input class="login__input" type="password" placeholder="Escriba su contraseña" required data-password>
-            <span class="span" data-span><button class="login__boton disabled" type="submit" disabled data-button>Entrar</button></d>
-            <!-- <button class="login__boton disabled" type="submit" onclick="location.href='menu-administrador.html'">Entrar</button> -->
+    <section class="agregar__formulario">
+        <form class="formulario" data-form>
+            <h3 class="agregar__titulo">Actualizar producto</h3>
+            <input class="agregar__input" type="text" placeholder="URL de la imagen" required data-imagen>
+            <input class="agregar__input" type="text" placeholder="Categoría" required data-categoria>
+            <input class="agregar__input" type="text" placeholder="Nombre del producto" required data-nombre>
+            <input class="agregar__input" type="text" placeholder="Precio del producto" required data-precio>
+            <textarea class="agregar__textarea" name="" id="" cols="30" rows="10" placeholder="Descripción del producto" required data-descripcion></textarea>
+            <button type="submit" class="agregar__boton">Actualizar Producto</button>
         </form>
     </section>
 
@@ -49,7 +52,7 @@
         <form action="" class="informacion__formulario">
             <h2 class="formulario__titulo">Hable con nosotros</h2>
             <input class="formulario__input" type="text" placeholder="Nombre" required>
-            <textarea class="formulario__textarea" name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" required></textarea>
+            <textarea class="formulario__textarea" name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" readonly></textarea>
             <button class="formulario__boton" type="submit">Enviar mensaje</button>
         </form>
     </section>
@@ -57,7 +60,6 @@
         <h2 class="footer__titulo">Desarrollado por Daniel Barrera Devia</h2>
         <h2 class="footer__anio">&copy2023</h2>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="../js/login.js"></script>
+    <script type="module" src="/controllers/actualizar-controller.js"></script>
 </body>
 </html>

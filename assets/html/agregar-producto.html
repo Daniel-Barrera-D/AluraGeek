@@ -24,13 +24,13 @@
     </header>
 
     <section class="agregar__formulario">
-        <form action="" class="formulario">
+        <form class="formulario" data-form>
             <h3 class="agregar__titulo">Agregar nuevo producto</h3>
-            <input class="agregar__input" type="text" placeholder="URL de la imagen" required>
-            <input class="agregar__input" type="text" placeholder="Categoría" required>
-            <input class="agregar__input" type="text" placeholder="Nombre del producto" required>
-            <input class="agregar__input" type="text" placeholder="Precio del producto" required>
-            <textarea class="agregar__textarea" name="" id="" cols="30" rows="10" placeholder="Descripción del producto"></textarea>
+            <input class="agregar__input" type="text" placeholder="URL de la imagen" required data-imagen>
+            <input class="agregar__input" type="text" placeholder="Categoría" required data-categoria>
+            <input class="agregar__input" type="text" placeholder="Nombre del producto" required data-nombre>
+            <input class="agregar__input" type="text" placeholder="Precio del producto" required data-precio>
+            <textarea class="agregar__textarea" name="" id="" cols="30" rows="10" placeholder="Descripción del producto" required data-descripcion></textarea>
             <button class="agregar__boton" type="submit">Agregar Producto</button>
         </form>
     </section>
@@ -60,6 +60,8 @@
         <h2 class="footer__titulo">Desarrollado por Daniel Barrera Devia</h2>
         <h2 class="footer__anio">&copy2023</h2>
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="module" src="/controllers/registro-controller.js"></script>
 </body>
 </html>

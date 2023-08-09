@@ -1,0 +1,19 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "Challenge del programa ONE, alurageek",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Barrera-D/AluraGeek.git"
+  },
+  "author": "Daniel Barrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel-Barrera-D/AluraGeek/issues"
+  },
+  "homepage": "https://github.com/Daniel-Barrera-D/AluraGeek#readme"
+}
