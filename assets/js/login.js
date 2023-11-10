@@ -1,5 +1,10 @@
 const $form = document.querySelector("[data-form]");
 
+Swal.fire(
+    'Datos de acceso',
+    '<b>Correo Electrónico: </b>admin@email.com<br><b>Contraseña: </b>Admin321',
+    'info'
+  )
 
 function validar() {
     let deshabilitar = false;
